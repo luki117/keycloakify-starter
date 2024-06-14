@@ -1,4 +1,4 @@
-import "./KcApp.css";
+import "./KcApp.scss";
 import { lazy, Suspense } from "react";
 import Fallback, { type PageProps } from "keycloakify/login";
 import type { KcContext } from "./kcContext";
@@ -17,7 +17,7 @@ const Info = lazy(() => import("keycloakify/login/pages/Info"));
 // This is like adding classes to theme.properties 
 // https://github.com/keycloak/keycloak/blob/11.0.3/themes/src/main/resources/theme/keycloak/login/theme.properties
 const classes = {
-    // NOTE: The classes are defined in ./KcApp.css
+    // NOTE: The classes are defined in ./KcApp.scss
     "kcHtmlClass": "my-root-class",
     "kcHeaderWrapperClass": "my-color my-font"
 } satisfies PageProps["classes"];
