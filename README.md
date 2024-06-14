@@ -1,4 +1,4 @@
-<p align="center">
+<p>
     <i>🚀 A starter/demo project for <a href="https://keycloakify.dev">Keycloakify</a> v9 🚀</i>
     <br/>
     <br/>
@@ -108,8 +108,8 @@ yarn storybook
 Instructions for building and running the react app (`src/App`) that is collocated with our Keycloak theme. 
 
 ```bash
-docker build -f Dockerfile -t keycloakify/keycloakify-starter:main .
-docker run -it -dp 8083:80 keycloakify/keycloakify-starter:main
+podman build -f Dockerfile -t keycloakify/keycloakify-starter:main .
+podman run -it -dp 8083:80 keycloakify/keycloakify-starter:main
 # You can access the app at http://localhost:8083
 ```
 
