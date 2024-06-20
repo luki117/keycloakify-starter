@@ -69,6 +69,7 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                     {/*<img src={`${import.meta.env.BASE_URL}keycloakify-logo.png`} alt="Keycloakify logo" width={50} />*/}
                     {/* ...rely on the bundler to import your assets, it's more efficient */}
                     {/*<img src={keycloakifyLogoPngUrl} alt="Keycloakify logo" width={50} />*/}
+                    *** {realm.displayNameHtml} ***
                 </div>
             </div>
 
